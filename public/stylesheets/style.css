@@ -1,0 +1,171 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color:#d1ede4;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.link {
+  stroke: #000;
+  stroke-width: 1.5px;
+}
+.vote{
+  font-size:16px;
+  text-align:center;
+  color : black;
+}
+.node {
+  cursor: move;
+  fill: #ccc;
+  stroke: #000;
+  stroke-width: 1.5px;
+}
+
+.node.fixed {
+  fill: #f00;
+}
+text{
+  color : black;
+  font-size: 12px;
+}
+
+g{
+  border: 10px solid;
+  border-color: black;
+}
+
+
+.round {
+  border-radius: 100px; /* Радиус скругления */
+  border: 3px solid green; /* Параметры рамки */
+  box-shadow: 0 0 7px #666; /* Параметры тени */
+}
+
+@media print
+{
+  img,nav{
+    display: none !important;
+  }
+  #main, #market, #picture, #copyright{
+    border: none !important;
+  }
+}
+
+p {
+  font-size:16px;
+  text-align:center;
+}
+body{
+  margin:0px;
+  background-color:#d1ede4
+}
+.i {
+  font-style: italic;
+}
+.indent{
+  margin-left: 20px;
+}
+#picture{
+  width: 26%;
+  height: 690px;
+  display: table-cell;
+  border:2px solid;
+  vertical-align: middle;
+}
+#main{
+  width: 48%;
+  height: 690px;
+  border:2px solid;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+#market{
+  width: 27%;
+  height: 690px;
+  border:2px solid;
+  display: table-cell;
+  vertical-align: middle;
+}
+#copyright{
+  width:auto;
+  height: 40px;
+  border:2px solid;
+}
+#flag{
+  width: 520px;
+  height: 400px;
+  margin-left:0px;
+}
+#government{
+  width: 520px;
+  height: 300px;
+  margin-left:0px;
+}
+#myphoto{
+  width: 220px;
+  height: 350px;
+  margin-left:20px;
+  float:left;
+}
+#arrtable{
+  margin: auto;
+}
+nav{
+  border:2px solid;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav ul:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+nav a {
+  text-decoration: none;
+  display: block;
+}
+.topmenu > li {
+  float: left;
+  position: relative;
+}
+.topmenu > li > a {
+  padding: 20px 30px;
+  font-size: 12px;
+  color:black;
+}
+.submenu a:hover {
+  color: #5ee041;
+}
+.submenu {
+  position: absolute;
+  min-width: 150px;
+  background: white;
+  border-top: 1px solid #CBCBCC;
+  border-left: 1px solid #CBCBCC;
+  border-right: 1px solid #CBCBCC;
+  visibility: hidden;
+}
+.submenu li {
+  position: relative;
+}
+.submenu li a {
+  color: black;
+  padding: 10px 20px;
+  font-size: 13px;
+  border-bottom: 1px solid #CBCBCC;
+}
+nav li:hover > .submenu {
+  visibility: visible;
+}
+.submenu .submenu {
+  position: absolute;
+  left: 100%;
+  top: -1px;
+}

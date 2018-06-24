@@ -1,0 +1,28 @@
+doctype html
+html
+  head
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    title Главная страница
+    meta(charset='utf-8')
+  body
+    nav
+      ul.topmenu
+        li
+          a(href='#') Меню
+          ul.submenu
+            li
+              a(href='/') Главная
+            li
+              a(href='/AboutTM') Закон о Телемедицине
+    #picture
+      img#flag(src='images/flag.jpg', alt='Фото 1')
+    #main
+      block content
+
+
+    #market
+      a(href='http://government.ru/', target='_blank', title='Правительство')
+        img#government(src='images/PR_RF.jpeg', alt='Реклама')
+    #copyright
+      .indent Copyright.2018
+
